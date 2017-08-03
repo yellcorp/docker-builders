@@ -10,6 +10,7 @@ RUN apt-get update  \
  && apt-get install -y --no-install-recommends  \
       php7.0-cli  \
       php7.0-mbstring  \
+      php7.0-zip  \
       rsync  \
       ruby  \
       ruby-dev  \
