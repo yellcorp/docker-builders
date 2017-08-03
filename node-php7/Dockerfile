@@ -9,6 +9,7 @@ LABEL description="Build image based off official Node 6.x, adding Composer \
 RUN apt-get update  \
  && apt-get install -y --no-install-recommends  \
       php7.0-cli  \
+      php7.0-mbstring  \
       rsync  \
       ruby  \
       ruby-dev  \
