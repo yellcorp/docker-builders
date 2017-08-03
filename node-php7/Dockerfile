@@ -1,7 +1,7 @@
 FROM node:6-stretch
 
 LABEL maintainer="Jim Boswell <jimb@yellcorp.org>"
-LABEL version=0.0.1
+LABEL version=0.0.2
 LABEL description="Build image based off official Node 6.x, adding Composer \
                    (and its dependency PHP7-cli), Sass (and its dependency \
                    Ruby), and rsync"
