@@ -1,8 +1,8 @@
-FROM node:6
+FROM node:8
 
 LABEL maintainer="Jim Boswell <jimb@yellcorp.org>"
-LABEL version=0.0.2
-LABEL description="Build image based off official Node 6.x, adding Composer \
+LABEL version=0.0.3
+LABEL description="Build image based off official Node 8.x, adding Composer \
                    (and its dependency PHP5-cli), Sass (and its dependency \
                    Ruby), and rsync"
 
